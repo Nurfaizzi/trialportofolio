@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-about{
+    background-color: #323946;
+    display: flex;
+    justify-content: center;
+}
+
+.img-about{
+    margin-top: 80px;
+    margin-left: 49px;
+    display: flex;
+
+    justify-content: center;
+}
+
+.description-about{
+    margin-top: 148px;
+    margin-left: -230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    font-size: 40px;
+    margin-left: -53px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-about span {
+    color: aqua;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+.myname{
+    color: aqua;
+    display: flex;
+    margin-left: 253px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container-name{
+    color: white;
+    font-size: 28px;
+    margin-left: 8px;
+    margin-top: 5px;
+}
+
+p{ 
+    color: white;
+    margin-top: 18px;
+   display: flex;
+   justify-content: space-between;
+    font-size: 20px;
+    width: 490px;
+    margin-left: 259px;
+}
+
+@media screen and (min-width: 768px) and (max-width:1000px) {
+
+    p{ 
+        color: white;
+        margin-top: 18px;
+       display: flex;
+       justify-content: space-between;
+        font-size: 20px;
+        width: 390px;
+        margin-left: 259px;
+    }
+
+    .heading{
+        text-align: center;
+        font-size: 40px;
+        margin-left: 39px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
+
+@media screen and  (max-width:536px) {
+    .container-about{
+        background-color: #323946;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        height: 700px;
+    }
+    .description-about{
+        margin-top: 0px;
+        margin-left: -230px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-about{
+        margin-top: 80px;
+        margin-left: 73px;
+        display: flex;
+    
+        justify-content: center;
+    }
+    .heading{
+        text-align: center;
+        font-size: 40px;
+        margin-left: 230px;
+        color: white;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{ 
+        color: white;
+        margin-top: 18px;
+       display: flex;
+       justify-content: space-between;
+        font-size: 20px;
+        width: 390px;
+        margin-left: 249px;
+    }
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container-navbar{
+    display: flex;
+    background-color: #1f242d;
+    justify-content: center;
+    position: relative;
+    color: white;
+}
+
+.container-Logo{
+    margin-left: -190px;
+    display: flex;
+    margin-top: 15px;
+}
+
+nav{
+    margin-top: 15px;
+    display: flex;
+   margin-left: 500px;
+}
+
+ul li{
+    margin-top: 13px;
+    display: flex;
+    gap: 16px;
+    text-decoration: none;
+}
+
+a{
+ list-style: none;
+ display: flex;
+ text-decoration: none;
+ color: white;
+ transition: 0.5s ease;
+}
+
+a:hover{
+    color: aqua;
+    border-radius: 25%;
+    box-sizing: border-box;
+}
+#humberger{
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) and (max-width:1023px){
+    container-navbar{
+        display: flex;
+        background-color: #1f242d;
+        color: white;
+    }
+    .container-Logo{
+        margin-left: 45px;
+        display: flex;
+        margin-top: 15px;
+    }
+    nav{
+        margin-top: 15px;
+        display: flex;
+       margin-left: 270px;
+     
+    }
+}
+
+@media screen and (max-width: 536px) {
+    container-navbar{
+        display: none;
+        background-color: #1f242d;
+        color: white;
+    }
+    .container-Logo{
+        margin-left: 0px;
+        display: flex;
+        margin-top: 15px;
+    }
+    nav{
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 0px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 385px;
+        height: 66vh;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(8px);
+    
+    }
+
+    .nav{
+        margin-top: 0px;
+        position: absolute;
+        margin-left: 0px;
+        display: flex;
+       
+        justify-content: center;
+        align-items: center;
+        width: 385px;
+        height: 66vh;
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(8px);
+    
+    }
+
+    
+     ul li {
+        display: flex;
+        flex-direction: column;
+        gap: 59px;
+     }
+
+    #humberger{
+        display: block;
+        margin-left: 200px;
+        margin-top: 23px;
+    }
+}
+
