@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import './style.css'
+import { Link } from 'react-router-dom'
 function Navbar() {
   const [isToogle,SetIsToogle] = useState (false)
 
@@ -16,9 +17,13 @@ function Navbar() {
       
             <ul>
                 <li>
-                  
-                    <a href="">Home</a>
-                    <a href="#about">About</a>
+                <Link to="/home"> 
+                <a href="">Home</a>
+                    </Link>
+                    
+                    <Link to="/about"> 
+                    <a href="">About</a>
+                    </Link>
                     <a href="">My Skill</a>
                     <a href="">Contac Me</a>
                 </li>
@@ -29,8 +34,13 @@ function Navbar() {
           <ul>
             <li>
            
-                    <a href="">Home</a>
-                    <a href="#about">About</a>
+            <Link to="/home"> 
+                <a href="">Home</a>
+                    </Link>
+                    <Link to="/about"> 
+                    <a href="">About</a>
+                    </Link>
+                   
                     <a href="">My Skill</a>
                     <a href="">Contac Me</a>
             </li>

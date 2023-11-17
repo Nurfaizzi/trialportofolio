@@ -1,14 +1,13 @@
 import React from 'react'
-import Navbar from '../Components/Navbar'
-import Banner from '../Components/Banner'
-import About from '../Components/about'
+import Navbar from '../../Components/Navbar'
+import Banner from '../../Components/Banner'
 
 function LandingPage() {
   return (
     <div>
         <Navbar />
         <Banner />
-        <About />
+     
     </div>
   )
 }
