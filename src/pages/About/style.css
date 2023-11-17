@@ -64,6 +64,25 @@ p{
 
 @media screen and (min-width: 768px) and (max-width:1000px) {
 
+    .container-about{
+        background-color: #323946;
+        display: flex;
+        justify-content: center;
+        height: 850px;
+    }
+    .img-about{
+        margin-top: 251px;
+        margin-left: 49px;
+        display: flex;
+    
+        justify-content: center;
+    }
+    .description-about{
+        margin-top: 310px;
+        margin-left: -230px;
+        display: flex;
+        flex-direction: column;
+    }
     p{ 
         color: white;
         margin-top: 18px;
