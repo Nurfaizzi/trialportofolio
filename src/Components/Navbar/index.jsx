@@ -20,11 +20,13 @@ function Navbar() {
                 <Link to="/home"> 
                 <a href="">Home</a>
                     </Link>
-                    
                     <Link to="/about"> 
                     <a href="">About</a>
                     </Link>
+                    <Link to={'/myskill'}>
                     <a href="">My Skill</a>
+                    </Link>
+                  
                     <a href="">Contac Me</a>
                 </li>
             </ul>
@@ -40,8 +42,9 @@ function Navbar() {
                     <Link to="/about"> 
                     <a href="">About</a>
                     </Link>
-                   
+                    <Link to={'/myskill'}>
                     <a href="">My Skill</a>
+                    </Link>
                     <a href="">Contac Me</a>
             </li>
           </ul>

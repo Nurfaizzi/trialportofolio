@@ -2,7 +2,7 @@ import './style.css'
 import { motion } from 'framer-motion'
 import React from 'react'
 import Navbar from '../../Components/Navbar'
-
+import { Link } from 'react-router-dom'
 function About() {
     
   return (
@@ -17,6 +17,11 @@ function About() {
         <motion.h1 initial={{x: 900}} animate={{x: 0}} transition={{duration:"2", }} className='heading'>About<span>Me</span></motion.h1>
         <motion.h1 initial={{x: 900}} animate={{x: 0}} transition={{duration:"2",  }} className='myname'>Hello I'm <h1 className='container-name'>Nurfaizzi Rasyid</h1></motion.h1>
         <motion.p  initial={{x: 900}} animate={{x: 0}} transition={{duration:"2", }}> I am a frontend developer from Indonesia, I graduated from a vocational high school, and have attended a bootcamp at Binar Academy</motion.p>
+        <Link to={'/myskill'}>
+        <motion.button initial={{x: 900}} animate={{x: 0}} transition={{duration:"2", }}  className='btn-skill'>My Skill<i id='arrow'  className="fa-solid fa-arrow-right"></i> </motion.button>
+        </Link>
+       
+      
         </div>
         </div>
    

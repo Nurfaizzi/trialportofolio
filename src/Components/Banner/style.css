@@ -9,7 +9,7 @@
     flex-direction: column;
     color: white;
     background-color: #1f242d;
-    height: 550px;
+    height: 530px;
 }
 
 .text-sidebar h1{
@@ -74,7 +74,7 @@
 
 .image-banner{
     display: flex;
-    margin-top: -300px;
+    margin-top: -400px;
     margin-left: 500px;
     width: 20%;
 }
@@ -122,7 +122,7 @@ box-shadow: 0 0 16px var(aqua);
     }
     .text-sidebar h1{
         margin-left: -450px;
-         margin-top: 200px;
+         margin-top: 273px;
          display: flex;
        
          font-size: 30px;
@@ -178,7 +178,7 @@ box-shadow: 0 0 16px var(aqua);
     
     .image-banner{
         display: flex;
-        margin-top: -338px;
+        margin-top: -410px;
         margin-left: 10px;
         width: 20%;
     }

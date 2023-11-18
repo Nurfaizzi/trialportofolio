@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card{
+    background-color: #1f242d;
+    height: 520px;
+}
+.subheading-text{
+    color: rgb(255, 253, 253);
+
+    display: flex;
+    font-size: 19px;
+    justify-content: center;
+
+}
+
+
+
+.card h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+   padding-top: 80px;
+}
+
+.heading-skill{
+    color: aqua;
+    margin-left: 8px;
+
+}
+
+.radial-bars{
+    background-color: #1f242d;
+gap: 40px;
+justify-content: center;
+ display: flex;
+flex-wrap: wrap;
+margin-left: 36px;
+
+}
+
+.button-skill{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.button-skill p{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-left: -20px;
+}
+
+.radial-bars .radial-bar{
+    width: 13%;
+    height: 170px;
+    margin-bottom: 10px;
+   position: relative;
+   margin-top: 50px;
+}
+
+.radial-bars .radial-bar svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+}
+
+.radial-bars .radial-bar .progres-bar{
+    stroke-width: 10;
+    stroke: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+
+.path{
+    stroke-width: 10;
+    stroke: aqua;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1{animation: animated-path1 1s 1s linear forwards;}
+.path-2{animation: animated-path2 1s 1s linear forwards;}
+.path-3{animation: animated-path3 1s 1s linear forwards;}
+.path-4{animation: animated-path4 1s 1s linear forwards;}
+
+@keyframes animated-path1{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes animated-path2{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+
+@keyframes animated-path3{
+    100%{
+        stroke-dashoffset: 55;
+    }
+}
+
+@keyframes animated-path4{
+    100%{
+        stroke-dashoffset: 125;
+    }
+}
+
+.radial-bar .precentace{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.5;
+    color: white;
+}
+
+.text{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+    bottom: -5px;
+    transform: translate(-50%);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    transition: 5s ease-in;
+}
